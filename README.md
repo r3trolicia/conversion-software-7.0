@@ -38,3 +38,41 @@ A versatile desktop application for converting **images, audio, video, and docum
 
 ```bash
 pip install PyQt6
+```
+
+---
+
+## Requirements
+
+**Install system dependencies (Debian/Ubuntu example):**
+
+```bash
+sudo apt install imagemagick ffmpeg libreoffice
+```
+
+---
+
+## Usage
+
+```bash
+python3 converter.py
+```
+- Drag files into the window or click Add Files.
+- Select the desired output format from the dropdown.
+- Click Convert to start conversion.
+- A message box will appear when the conversion is complete.
+
+---
+
+
+## Notes
+
+- Animated GIFs can be converted to video formats using FFmpeg.
+- Unsupported file types will be skipped with a warning.
+- Conversion errors are shown via dialog boxes.
+
+---
+
+## License
+
+This project is MIT licensed
